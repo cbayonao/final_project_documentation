@@ -117,15 +117,15 @@ Es necesario quitar espacios en todos los campos strip()
 
 `//div[@class="container table-responsive"][2]//table[@class="table table-hover list-styler"][1]//tbody[1]//td[@class=""][3]//text()`
 
-(Anotaciones por columna)
+(Anotaciones por columna tr)
 
 (Titulos de actuaciones)
 
 (Coje todos los titulos)
 
-//div[@class="container table-responsive"][2]//table[@class="table table-hover list-styler"][1]//thead[1]//tr[1]//th
+`//div[@class="container table-responsive"][2]//table[@class="table table-hover list-styler"][1]//thead[1]//tr[1]//th`
 
-(Coje titulo por titulo)
+(Coje titulo por titulo moviendose por posicion)
 
 `//div[@class="container table-responsive"][2]//table[@class="table table-hover list-styler"][1]//thead[1]//tr[1]//th`
 
